@@ -4,4 +4,4 @@ Export as text in a format that mirrors that used by [Highlights](http://highlig
 
 # AuthorTitle
 
-Export in the format '<Author> <Title>'.
+Export in the format `<Author> <Title>`.
