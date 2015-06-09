@@ -1,13 +1,1 @@
-<$publications>
-<$pubType=article?>
-<$fields.Journaltitle.stringByRemovingTeX/><$fields.Year?>, <$fields.Year/></$fields.Year?><$fields.Volume?>, Volume <$fields.Volume/></$fields.Volume?><$fields.Number?>, Issue <$fields.Number/></$fields.Number?><$fields.Pages?>, Page <$fields.Pages.stringByConvertingDoubleHyphenToEndash/></$fields.Pages?>
-<?$pubType=collection?>
-In ‘<$fields.Title.stringByRemovingTeX/>’ edited by <$editors.name.stringByRemovingTeX.@componentsJoinedByCommaAndAnd/><$fields.Location?><$fields.Location.stringByPrependingCommaAndSpaceIfNotEmpty/>:</$fields.Location?><$fields.Publisher.stringByPrependingSpaceIfNotEmpty/>
-<?$pubType=mvcollection?>
-In ‘<$fields.Title.stringByRemovingTeX/>’ volume <$fields.Volume/> edited by <$editors.name.stringByRemovingTeX.@componentsJoinedByCommaAndAnd/><$fields.Location?><$fields.Location.stringByPrependingCommaAndSpaceIfNotEmpty/>:</$fields.Location?><$fields.Publisher.stringByPrependingSpaceIfNotEmpty/>
-<?$pubType=book?>
-In ‘<$fields.Title.stringByRemovingTeX/>’<$fields.Location?><$fields.Location.stringByPrependingCommaAndSpaceIfNotEmpty/>:</$fields.Location?><$fields.Publisher.stringByPrependingSpaceIfNotEmpty/>
-<?$pubType=mvbook?>
-In ‘<$fields.Title.stringByRemovingTeX/>’ volume <$fields.Volume/.<$fields.Location?><$fields.Location.stringByPrependingCommaAndSpaceIfNotEmpty/>:</$fields.Location?><$fields.Publisher.stringByPrependingSpaceIfNotEmpty/>
-</$pubType?>
-</$publications>
+<$publications><$pubType=article?><$fields.Journaltitle.stringByRemovingTeX/><$fields.Year?>, <$fields.Year/></$fields.Year?><$fields.Volume?>, Volume <$fields.Volume/></$fields.Volume?><$fields.Number?>, Issue <$fields.Number/></$fields.Number?><$fields.Pages?>, Page <$fields.Pages.stringByConvertingDoubleHyphenToEndash/></$fields.Pages?><?$pubType=collection?>In ‘<$fields.Title.stringByRemovingTeX/>’ edited by <$editors.name.stringByRemovingTeX.@componentsJoinedByCommaAndAnd/><$fields.Location?><$fields.Location.stringByPrependingCommaAndSpaceIfNotEmpty/>:</$fields.Location?><$fields.Publisher.stringByPrependingSpaceIfNotEmpty/><?$pubType=mvcollection?>In ‘<$fields.Title.stringByRemovingTeX/>’ volume <$fields.Volume/> edited by <$editors.name.stringByRemovingTeX.@componentsJoinedByCommaAndAnd/><$fields.Location?><$fields.Location.stringByPrependingCommaAndSpaceIfNotEmpty/>:</$fields.Location?><$fields.Publisher.stringByPrependingSpaceIfNotEmpty/><?$pubType=book?>In ‘<$fields.Title.stringByRemovingTeX/>’<$fields.Location?><$fields.Location.stringByPrependingCommaAndSpaceIfNotEmpty/>:</$fields.Location?><$fields.Publisher.stringByPrependingSpaceIfNotEmpty/><?$pubType=mvbook?>In ‘<$fields.Title.stringByRemovingTeX/>’ volume <$fields.Volume/.<$fields.Location?><$fields.Location.stringByPrependingCommaAndSpaceIfNotEmpty/>:</$fields.Location?><$fields.Publisher.stringByPrependingSpaceIfNotEmpty/></$pubType?></$publications>
